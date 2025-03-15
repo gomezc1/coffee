@@ -1,11 +1,100 @@
-<style>
-.container {
-        width: 80%; /* Adjust the width c: */
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #ffffff;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-</style>
+  <style>
+        body {
+            background-color: white;
+            text-align: center;
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f8c8d8, #fdf5a25e);
+        }
+
+        .container {
+            max-width: 90%; /* Flexible width for different screens */
+            width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f3ece6;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Prevents content overflow */
+            height: 3%;
+        }
+
+        h1, h2 {
+            color: #432818;
+            margin-bottom: 10px;
+        }
+
+        .image {
+            max-width: 95%; /* Ensure the image scales down */
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .list-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 20px; /* Reduced gap */
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding: 10px;
+            padding-left: 70px;
+            margin: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 5px;
+            color: #432818;
+        }
+
+        .btn {
+            background-color: #faf3cb;
+            color: rgb(255, 122, 204);
+            padding: 10px 55px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            background-color: rgb(255, 182, 193); /* Light pink hover background */
+            color: white; /* White text on hover */
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #432818;
+        }
+
+        a {
+            color: rgb(250, 90, 188);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        hr {
+            border-color: rgba(255, 122, 204, 0.212);
+          }
+
+    </style>
