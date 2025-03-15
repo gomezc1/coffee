@@ -1,4 +1,4 @@
-# Coffee Shop
+My Coffee Shop c:
 
 
-updating an old assignment c:
+ Updated an old assignment
